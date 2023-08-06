@@ -1,0 +1,52 @@
+﻿  ArrayList.cpp
+  ChuyenBay.cpp
+  DanhSachChuyenBay.cpp
+  DanhSachKhachHang.cpp
+  DanhSachMayBay.cpp
+  DanhSachNhanVien.cpp
+  DanhSachVePending.cpp
+  DanhSachVeSuccess.cpp
+  Header.cpp
+C:\Users\ASUS\source\repos\QLCB\QLCB\Header.cpp(50,9): warning C4244: 'return': conversion from 'time_t' to 'long', possible loss of data
+C:\Users\ASUS\source\repos\QLCB\QLCB\Header.cpp(70,15): warning C4244: 'return': conversion from 'time_t' to 'long', possible loss of data
+  KhachHang.cpp
+  LinkedList.cpp
+  main.cpp
+C:\Users\ASUS\source\repos\QLCB\QLCB\Queue.cpp(62,3): warning C4551: function call missing argument list
+C:\Users\ASUS\source\repos\QLCB\QLCB\Queue.cpp(59,37): message : while compiling class template member function 'DataType Queue<DataType>::deQueue(void)'
+          with
+          [
+              DataType=Ve
+          ]
+C:\Users\ASUS\source\repos\QLCB\QLCB\main.cpp(584,18): message : see reference to function template instantiation 'DataType Queue<DataType>::deQueue(void)' being compiled
+          with
+          [
+              DataType=Ve
+          ]
+C:\Users\ASUS\source\repos\QLCB\QLCB\DanhSachVePending.h(5): message : see reference to class template instantiation 'Queue<Ve>' being compiled
+          with
+          [
+              Ve=Ve
+          ]
+C:\Users\ASUS\source\repos\QLCB\QLCB\main.cpp(18,24): message : see reference to class template instantiation 'DanhSachVePending<Ve>' being compiled
+C:\Users\ASUS\source\repos\QLCB\QLCB\Queue.cpp(87,3): warning C4551: function call missing argument list
+C:\Users\ASUS\source\repos\QLCB\QLCB\Queue.cpp(84,34): message : while compiling class template member function 'DataType Queue<DataType>::peek(void)'
+          with
+          [
+              DataType=Ve
+          ]
+C:\Users\ASUS\source\repos\QLCB\QLCB\DanhSachVePending.cpp(67,11): message : see reference to function template instantiation 'DataType Queue<DataType>::peek(void)' being compiled
+          with
+          [
+              DataType=Ve
+          ]
+C:\Users\ASUS\source\repos\QLCB\QLCB\DanhSachVePending.cpp(11,43): message : while compiling class template member function 'void DanhSachVePending<Ve>::xuLyDocFile(void)'
+C:\Users\ASUS\source\repos\QLCB\QLCB\main.cpp(25,32): message : see reference to function template instantiation 'void DanhSachVePending<Ve>::xuLyDocFile(void)' being compiled
+  MayBay.cpp
+  NhanVien.cpp
+  Node.cpp
+  Queue.cpp
+  Ve.cpp
+  Generating Code...
+C:\Users\ASUS\source\repos\QLCB\QLCB\Queue.cpp(75): warning C4715: 'Queue<Ve>::deQueue': not all control paths return a value
+  QLCB.vcxproj -> C:\Users\ASUS\source\repos\QLCB\x64\Debug\QLCB.exe
